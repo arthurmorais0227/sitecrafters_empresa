@@ -31,7 +31,6 @@ main {
 .forms {
     display: flex;
     justify-content: right;
-    gap: 100px;
     padding: 100px 500px;
     color: white;
 }
@@ -98,5 +97,6 @@ main {
 .botao {
     display: flex;
     justify-content: center;
-    padding: 30px;
+    width: 100px;
+    height: 100px;
 }

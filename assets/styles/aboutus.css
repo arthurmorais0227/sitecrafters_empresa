@@ -1,0 +1,52 @@
+
+
+.retangulo {
+    width: auto;
+    height: 160px;
+    margin: 0px auto 0px;
+    display: flex;   
+    justify-content: top;
+    align-items: center;
+    background-image: linear-gradient(to top, rgba(91, 120, 122, 1), rgba(166, 220, 222, 1));
+}
+
+.texto{
+    color: white;
+    font-size: 40px;
+    font-family:Cinzel Decorative ;
+}
+
+.fundo {
+    width: auto;
+    height: 780px;
+    border: 1px solid #000;
+    background: linear-gradient(180deg, #1C5052 0.96%, #348E91 100%);
+}
+
+.home {
+    width: 87px;
+    height: 34px;
+    margin-left: 550px;
+    flex-shrink: 0;
+    background-color: white;
+    stroke-width: 1px;
+    stroke: #000;
+    filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.50));
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pesquisa{
+    background-color: #1C5052;
+    margin-left: 40px;
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255); 
+}
+input[type="text"]{
+    width: 180px;
+    height: 37px;
+}

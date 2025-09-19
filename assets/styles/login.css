@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(28, 80, 82, 1),rgba(63, 180, 184, 1));
+    min-height: 100vh;
+    font-family: "Cinzel Decorative";
+}
+
+header {
+  color: #f2f2f2;
+  background: linear-gradient(180deg, #9CCFD1 0%, #7BA4A6 33.65%, #5A7778 100%);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  width: 10000px;
+  height: 85px;
+  flex-shrink: 0;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 80px;
+  line-height: normal;
+}
+
+main {
+  background-color: transparent;
+  padding: 32px 40px;
+  width: 800px;
+  margin: 150px auto 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  border: 4px solid black;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.BOTAO {
+    display: flex;
+    justify-content: center;
+}
+
+.USUARIO {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.SENHA {
+    display: flex;
+    justify-content: center;
+}
+
+main h2 {
+    display: flex;
+  justify-content: center;
+}
+
+button {
+fill: #D9D9D9;
+stroke-width: 1px;
+stroke: #000;
+filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.50));
+margin: 30px;
+width: 103px;
+height: 29px;
+flex-shrink: 0;
+border-radius: 25%;
+
+}

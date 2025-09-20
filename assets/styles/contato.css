@@ -12,12 +12,72 @@ body {
     height: 100vh;
 }
 
-
 header {
-    background-image: linear-gradient(to bottom, #9CCFD1, #7BA4A6, #5A7778);
-    color: rgb(252, 252, 252);
-    padding: 25px 15px;
-    font-size: 35px;
+    background: linear-gradient(180deg, #9CCFD1 0%, #7BA4A6 33.65%, #5A7778 100%);;
+    color: white;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 200px;
+}
+
+.logo {
+    padding-left: 500px;
+}
+
+
+
+.sitecrafters {
+    font-size:40px;
+    font-weight: bold;
+    transition: color 0.5s;
+    padding-right: 450px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.menu input {
+    color: azure;
+    width: 400px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: white 2px solid;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    height: 30px;
+    align-items: center;
+}
+
+.menu input::placeholder {
+    color: white;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    transition: background-color,  color 0.7s;
+    background-color: #1C5052;
+    width: 100px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10PX;
+}
+
+.menu a:hover {
+    background-color:  white;
+    color:  #1C5052;
 }
 
 main {
@@ -30,96 +90,48 @@ main {
 .forms {
     display: flex;
     justify-content: right;
-    padding: 150px 290px;
+    padding-right: 250px;
+    padding-top: 50px;
     color: white;
 }
 
-.form-container{
+.form-container {
     border: 2px solid white;
     padding: 100px;
     border-radius: 15%;
 }
 
-.nome input {
+.nome input,
+.email input,
+.whatsapp input{
     color: azure;
     width: 400px;
     height: 50px;
     color: white;
     background-color: transparent;
-    outline: none;
     border: none;
-    border-color: white;
     padding: 20px 45px 0px 0px;
-    border-bottom: white 2px solid ;
+    border-bottom: white 2px solid;
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
     margin-bottom: 30px;
 }
 
-.nome input::placeholder {
-    color: white;
-    display: inline-block;
-    transition: all 0.5s ease;
-}
-
-.nome input:hover::placeholder {
-    color: white;
-    transform: translateY(-27px);
-}
-
-.email input {
-    color: azure;
-    width: 400px;
-    height: 50px;
-    color: white;
-    background-color: transparent;
-    outline: none;
-    border: none;
-    border-color: white;
-    padding: 20px 45px 0px 0px;
-    border-bottom: white 2px solid ;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: larger;
-    margin-bottom: 30px;
-}
-
-.email input::placeholder {
-    color: white;
-    display: inline-block;
-    transition: all 0.5s ease;
-}
-
-.email input:hover::placeholder {
-    color: white;
-    transform: translateY(-27px);
-}
-
-.whatsapp input {
-    color: azure;
-    width: 400px;
-    height: 50px;
-    color: white;
-    background-color: transparent;
-    outline: none;
-    border: none;
-    border-color: white;
-    padding: 20px 45px 0px 0px;
-    border-bottom: white 2px solid ;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: larger;
-    margin-bottom: 30px;
-}
-
+.nome input::placeholder,
+.email input::placeholder,
 .whatsapp input::placeholder {
     color: white;
     display: inline-block;
     transition: all 0.5s ease;
 }
 
+.nome input:hover::placeholder,
+.email input:hover::placeholder,
 .whatsapp input:hover::placeholder {
     color: white;
     transform: translateY(-27px);
 }
+
 .botao,
 .botao:hover {
     display: flex;
@@ -145,4 +157,13 @@ main {
     background-color: transparent;
     color: white;
     transform: translateY(-2px);
+}
+
+.contato-container {
+    display: flex;
+    justify-content: right;
+    margin-right: 338px;
+    margin-top: 35px;
+    font-size: 40px;
+    color: white;
 }

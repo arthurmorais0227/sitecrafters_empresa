@@ -6,33 +6,38 @@
 
 body {
     display: flex;
-
     flex-direction: column;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 100%;
     height: 100vh;
 }
 
+
 header {
     background-image: linear-gradient(to bottom, #9CCFD1, #7BA4A6, #5A7778);
-    ;
     color: rgb(252, 252, 252);
     padding: 25px 15px;
     font-size: 35px;
 }
 
 main {
-    border: 1px solid #000;
     background: linear-gradient(180deg, #348E91 0.96%, #1C5052 100%);
-    width: 100vw;
-    height: 100vw;
+    width: 100%;
+    height: 100%;
+
 }
 
 .forms {
     display: flex;
     justify-content: right;
-    padding: 100px 500px;
+    padding: 150px 290px;
     color: white;
+}
+
+.form-container{
+    border: 2px solid white;
+    padding: 100px;
+    border-radius: 15%;
 }
 
 .nome input {
@@ -52,7 +57,14 @@ main {
 }
 
 .nome input::placeholder {
-    color: white
+    color: white;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+.nome input:hover::placeholder {
+    color: white;
+    transform: translateY(-27px);
 }
 
 .email input {
@@ -72,7 +84,14 @@ main {
 }
 
 .email input::placeholder {
-    color: white
+    color: white;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+.email input:hover::placeholder {
+    color: white;
+    transform: translateY(-27px);
 }
 
 .whatsapp input {
@@ -92,11 +111,38 @@ main {
 }
 
 .whatsapp input::placeholder {
-    color: white
+    color: white;
+    display: inline-block;
+    transition: all 0.5s ease;
 }
-.botao {
+
+.whatsapp input:hover::placeholder {
+    color: white;
+    transform: translateY(-27px);
+}
+.botao,
+.botao:hover {
     display: flex;
     justify-content: center;
-    width: 100px;
-    height: 100px;
+    margin-top: 35px;
+}
+
+.botao button {
+    width: 250px;
+    height: 75px;
+    color: 1C5052;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: white;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+.botao button:hover {
+    background-color: transparent;
+    color: white;
+    transform: translateY(-2px);
 }

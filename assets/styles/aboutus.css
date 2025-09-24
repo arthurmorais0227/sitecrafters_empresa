@@ -1,4 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
 
 .retangulo {
     width: auto;
@@ -17,10 +27,11 @@
 }
 
 .fundo {
-    width: auto;
-    height: 780px;
-    border: 1px solid #000;
+    width: 100%;
+    min-height: 100vh; 
     background: linear-gradient(180deg, #1C5052 0.96%, #348E91 100%);
+    margin: 0;
+    padding: 0;
 }
 
 .home {
@@ -49,4 +60,25 @@ input::placeholder {
 input[type="text"]{
     width: 180px;
     height: 37px;
+    color: white;
+}
+.centro {
+  background: rgba(90, 119, 120, 1); 
+  padding: 20px;
+  border-radius: 18px;
+  max-width: 600px;
+  display: flex;
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: 50px;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 15px; 
+  color: #FFF;
+    text-align: center;
+    font-family: "Days One";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

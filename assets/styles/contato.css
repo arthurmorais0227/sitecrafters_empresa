@@ -20,19 +20,24 @@ header {
     justify-content: right;
     align-items: center;
     padding-right: 200px;
+    gap: 40px
 }
 
-.logo {
-    padding-left: 500px;
+.marca {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 150px;
 }
 
+.marca img {
+    height: 100px;
+}
 
-
-.sitecrafters {
-    font-size:40px;
+.marca h1 {
+    font-size: 55px;
     font-weight: bold;
-    transition: color 0.5s;
-    padding-right: 450px;
+    font-family: Cinzel Decorative;
 }
 
 .menu {
@@ -73,11 +78,13 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 10PX;
+    transition: transform 0.4s ease;
 }
 
 .menu a:hover {
     background-color:  white;
     color:  #1C5052;
+    transform: scale(1.1);
 }
 
 main {
@@ -136,7 +143,7 @@ main {
 .botao:hover {
     display: flex;
     justify-content: center;
-    margin-top: 35px;
+    margin-top: 35px,
 }
 
 .botao button {
@@ -151,12 +158,14 @@ main {
     align-items: center;
     display: inline-block;
     transition: all 0.5s ease;
+    transition: transform 0.4s ease;
 }
 
 .botao button:hover {
     background-color: transparent;
     color: white;
     transform: translateY(-2px);
+    transform: scale(1.1);
 }
 
 .contato-container {

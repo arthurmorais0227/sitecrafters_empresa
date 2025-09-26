@@ -13,7 +13,8 @@ body {
 }
 
 header {
-    background: linear-gradient(180deg, #9CCFD1 0%, #7BA4A6 33.65%, #5A7778 100%);;
+    background: linear-gradient(180deg, #9CCFD1 0%, #7BA4A6 33.65%, #5A7778 100%);
+    ;
     color: white;
     padding: 30px 30px;
     display: flex;
@@ -44,6 +45,21 @@ header {
     display: flex;
     justify-content: center;
     gap: 70px;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.menu a.login-link {
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    padding: 0;
+}
+
+.menu a.login-link img.login {
+    width: 75px; 
+    height: auto;
+
 }
 
 .menu input {
@@ -66,11 +82,13 @@ header {
 }
 
 
-.menu a {
+.menu a.menu-link {
+    width: 100px;
+    height: 36px;
     color: white;
     text-decoration: none;
     font-size: 19px;
-    transition: background-color,  color 0.7s;
+    transition: background-color, color 0.7s;
     background-color: #1C5052;
     width: 100px;
     height: 36px;
@@ -81,9 +99,10 @@ header {
     transition: transform 0.4s ease;
 }
 
-.menu a:hover {
-    background-color:  white;
-    color:  #1C5052;
+
+.menu a.menu-link:hover {
+    background-color: white;
+    color: #1C5052;
     transform: scale(1.1);
 }
 
@@ -110,7 +129,7 @@ main {
 
 .nome input,
 .email input,
-.whatsapp input{
+.whatsapp input {
     color: azure;
     width: 400px;
     height: 50px;

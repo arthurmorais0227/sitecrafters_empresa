@@ -10,20 +10,32 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Sitecrafters</h1>
-    </header>   
+  <header>
+        <div class="marca">
+            <img src="../assets/images/site.png" alt="Logo dos Sitecrafters pixada com gotas de tinta na parede"
+                width="" height="200">
+            <h1>Sitecrafters</h1>
+        </div>
+        <div class="menu">
+            <input type="text" placeholder="Pesquisar" name="nome" required />
+            <div class="icones"></div>
+            <a href="/index.html" class="menu-link">Início</a>
+            <a href="/pages/aboutus.html" class="menu-link">Sobre</a>
+            <a href="/pages/contato.html" class="menu-link">Contato</a>
+            <a href="/pages/login.html" class="menu-link login-link">Login</a>
+        </div>
+    </header>
    <main>
     <section class="login" id="loginSection">
         <h2>Login</h2>
         <form id="loginForm">
-            <div class="USUARIO">
+            <div class="usuario">
                 <input type="text" id="username" placeholder="Usuário" required />
             </div>
-            <div class="SENHA">
+            <div class="senha">
                 <input type="password" id="password" placeholder="Senha" required />
             </div>
-            <div class="BOTAO">
+            <div class="botao">
                 <button type="submit">Entrar</button>
             </div>
         </form>

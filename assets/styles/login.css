@@ -5,73 +5,176 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    background-image: linear-gradient(to bottom, rgba(28, 80, 82, 1),rgba(63, 180, 184, 1));
-    min-height: 100vh;
-    font-family: "Cinzel Decorative";
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  min-height: 100vh;
+  font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+  background: url("/assets/images/loginpage.png");
 }
 
 header {
-  color: #f2f2f2;
-  background: linear-gradient(180deg, #9CCFD1 0%, #7BA4A6 33.65%, #5A7778 100%);
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  width: 10000px;
-  height: 85px;
-  flex-shrink: 0;
-  font-size: 35px;
-  font-style: normal;
-  font-weight: 80px;
-  line-height: normal;
+  background-color: rgb(123, 182, 250);
+  color: white;
+  padding: 30px 30px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 50px;
+  gap: 40px
+}
+
+.marca {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-right: 150px;
+}
+
+.marca img {
+  height: 100px;
+}
+
+.marca h1 {
+  font-size: 55px;
+  font-weight: bold;
+  font-family: Cinzel Decorative;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 30px;
+  align-items: center;
+}
+
+.menu a.login-link {
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+
+.menu a.login-link img.login {
+  width: 75px;
+  height: auto;
+
+}
+
+.menu input {
+  color: azure;
+  width: 400px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: white 2px solid;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  height: 30px;
+  align-items: center;
+  outline: none;
+}
+
+.menu input::placeholder {
+  color: white;
+  display: inline-block;
+  transition: all 0.5s ease;
+}
+
+
+.menu a.menu-link {
+  width: 100px;
+  height: 36px;
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+  transition: background-color, color 0.7s;
+  background-color: #70a2c4;
+  width: 100px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10PX;
+  transition: transform 0.4s ease;
+}
+
+
+.menu a.menu-link:hover {
+  background-color: white;
+  color: #000000;
+  transform: scale(1.1);
 }
 
 main {
-  background-color: transparent;
+  background-color: #70a2c4;
   padding: 32px 40px;
-  width: 800px;
+  width: 500px;
   margin: 150px auto 0 auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  border-radius: 50px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
   border: 4px solid black;
-  padding: 100px;
   display: flex;
   justify-content: center;
-  
-
 }
 
-.BOTAO {
-    display: flex;
-    justify-content: center;
+.botao,
+.botao:hover {
+  display: flex;
+  justify-content: center;
 }
 
-.USUARIO {
-    display: flex;
-    justify-content: center;
-    margin: 30px;
+.botao button:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  transform: translateY(-2px);
+  transform: scale(1.1);
 }
 
-.SENHA {
-    display: flex;
-    justify-content: center;
+.usuario input,
+.senha input {
+  color: rgb(0, 0, 0);
+  height: 50px;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  border: none;
+  padding: 20px 45px 0px 0px;
+  border-bottom: rgb(0, 0, 0) 2px solid;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  margin-bottom: 30px;
+  outline: none;
+}
+
+.usuario input::placeholder,
+.senha input::placeholder {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  transition: all 0.5s ease;
+}
+
+.usuario input:hover::placeholder,
+.senha input:hover::placeholder {
+  color: rgb(0, 0, 0);
+  transform: translateY(-27px);
 }
 
 main h2 {
-    display: flex;
+  display: flex;
   justify-content: center;
+  margin-bottom: 60px;
+  font-size: 40px;
 }
 
-button {
-fill: #D9D9D9;
-stroke-width: 1px;
-stroke: #000;
-filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.50));
-margin: 30px;
-width: 103px;
-height: 29px;
-flex-shrink: 0;
-border-radius: 25%;
-
+.botao button {
+  margin: 30px;
+  width: 150px;
+  height: 47px;
+  border-radius: 25px;
+  border: none;
+  transition: all 0.5s ease;
+  transition: transform 0.4s ease;
 }
 
 /* Edu passou po aqui :) */

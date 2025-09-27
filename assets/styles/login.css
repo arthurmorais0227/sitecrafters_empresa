@@ -11,6 +11,7 @@ body {
   min-height: 100vh;
   font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
   background: url("/assets/images/loginpage.png");
+  
 }
 
 header {
@@ -69,7 +70,7 @@ header {
   background-color: transparent;
   border: none;
   border-bottom: white 2px solid;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: larger;
   height: 30px;
   align-items: center;
@@ -90,7 +91,7 @@ header {
   text-decoration: none;
   font-size: 19px;
   transition: background-color, color 0.7s;
-  background-color: #70a2c4;
+  background-color: #043c61;
   width: 100px;
   height: 36px;
   display: flex;
@@ -139,9 +140,9 @@ main {
   color: rgb(0, 0, 0);
   background-color: transparent;
   border: none;
-  padding: 20px 45px 0px 0px;
+  padding: 17px 45px 0px 0px;
   border-bottom: rgb(0, 0, 0) 2px solid;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Cambria;
   font-size: larger;
   margin-bottom: 30px;
   outline: none;
@@ -175,6 +176,16 @@ main h2 {
   border: none;
   transition: all 0.5s ease;
   transition: transform 0.4s ease;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cadastro a{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
 }
 
 /* Edu passou po aqui :) */

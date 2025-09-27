@@ -1,0 +1,41 @@
+ <div>
+                    <img src="/assets/images/arthur.png" alt="Arthur Morais">
+                </div>
+                <div>
+                    <img src="/assets/images/beatriz.png" alt="Beatriz Miotto">
+                </div>
+                <div>
+                    <img src="/assets/images/bianca.png" alt="Bianca Luisa">
+                </div>
+                <div>
+                    <img src="/assets/images/gustavo.png" alt="Gustavo Victor">
+                </div>
+                <div>
+                    <img src="/assets/images/livia.png" alt="Livia Oliveira">
+                </div>
+                <div>
+                    <img src="/assets/images/murilo.png" alt="Murilo Brustólin">
+                </div>
+
+
+
+
+
+                <div>
+                <img src="/assets/images/arthur.png" alt="Arthur Morais">
+            </div>
+            <div>
+                <img src="/assets/images/beatriz.png" alt="Beatriz Miotto">
+            </div>
+            <div>
+                <img src="/assets/images/bianca.png" alt="Bianca Luisa">
+            </div>
+            <div>
+                <img src="/assets/images/gustavo.png" alt="Gustavo Victor">
+            </div>
+            <div>
+                <img src="/assets/images/livia.png" alt="Lívia Oliveira">
+            </div>
+            <div>
+                <img src="/assets/images/murilo.png" alt="Murilo Brustólin">
+            </div>

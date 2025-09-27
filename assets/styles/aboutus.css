@@ -218,6 +218,7 @@ main {
 }
 
 .integrantes {
+    padding-top: 0px;
     width: 850px;
     height: 647px;
     background-color: rgb(123, 182, 250);
@@ -230,6 +231,7 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
 }
 
 
@@ -237,6 +239,17 @@ main {
     width: 150px;
     height: 150px;
     border-radius: 25px;
+    border: 4px solid #023558;
+}
+
+.integrantes img:hover {
+    content: url("/assets/images/saiba\ mais.png");
+    transform: scale(1.1) rotate(2deg);
+}
+
+.integrantes h1 {
+    font-size: 40px;
+    font-family: Cinzel Decorative;
 }
 
 .integrantes p {
@@ -245,18 +258,19 @@ main {
     justify-content: center;
     align-items: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-size: 35px;
+    margin-bottom: 17px;
 }
 
-.integrantes div {
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
+
 
 .tres-esquerda {
-    flex-direction: row;
+    display: flex;
+    gap: 75px;
+}
+
+.tres-direita {
+    display: flex;
+    gap: 75px;
 }
 

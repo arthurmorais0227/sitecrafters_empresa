@@ -112,7 +112,7 @@ main {
   background-color: #70a2c4;
   padding: 32px 40px;
   width: 500px;
-  margin: 150px auto 0 auto;
+  margin: 90px auto 0 auto;
   border-radius: 50px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
   border: 4px solid black;
@@ -131,6 +131,12 @@ main {
   color: rgb(255, 255, 255);
   transform: translateY(-2px);
   transform: scale(1.1);
+}
+
+.usuario,
+.senha {
+  display: flex;
+  justify-content: center;
 }
 
 .usuario input,
@@ -166,6 +172,25 @@ main h2 {
   justify-content: center;
   margin-bottom: 60px;
   font-size: 40px;
+}
+
+.login-redes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.login-redes img {
+  width: 400px;
+  height: 45px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.login-redes img:hover {
+  transform: scale(1.05);
 }
 
 .botao button {

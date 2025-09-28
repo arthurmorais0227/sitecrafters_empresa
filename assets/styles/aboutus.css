@@ -203,7 +203,7 @@ main {
 }
 
 .valores-frase img:hover {
-    animation: girar 10s linear infinite;
+    animation: girar 2s linear infinite;
 }
 
 @keyframes girar {

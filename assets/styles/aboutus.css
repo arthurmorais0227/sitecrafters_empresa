@@ -5,11 +5,12 @@
 }
 
 body {
+    background: url("/assets/images/loginpage.png");
     display: flex;
     flex-direction: column;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 header {
@@ -109,6 +110,15 @@ header {
 main {
     background: url("/assets/images/loginpage.png");
     width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cima {
+    background: url("/assets/images/loginpage.png");
+    width: 100%;
     height: 100%;
     flex-direction: row-reverse;
     display: flex;
@@ -121,11 +131,6 @@ main {
     background-color: rgb(123, 182, 250);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
-}
-
-.sobre-valores {
-    margin-bottom: 50px;
-    align-items: center;
 }
 
 .sobre-container {
@@ -143,9 +148,16 @@ main {
     border: 3px #043c61 solid;
 }
 
-.sobre-container h1 {
+.titulo-sobre {
     font-family: Cinzel Decorative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10;
+    gap: 30px;
 }
+
 
 .valores {
     width: 600px;
@@ -203,7 +215,7 @@ main {
 }
 
 .valores-frase img:hover {
-    animation: girar 2s linear infinite;
+    animation: girar 0.8s linear infinite;
 }
 
 @keyframes girar {
@@ -248,7 +260,6 @@ main {
     flex-direction: column;
 }
 
-
 .integrantes img {
     width: 150px;
     height: 150px;
@@ -262,8 +273,12 @@ main {
     transform: scale(1.1) rotate(2deg);
 }
 
-.integrantes h1 {
-    font-size: 40px;
+.integrantes .murilo img:hover {
+    animation: girar 0.8s linear infinite;
+}
+
+.titulo-integrantes {
+    font-size: 22px;
     font-family: Cinzel Decorative;
 }
 
@@ -285,4 +300,58 @@ main {
 .tres-direita {
     display: flex;
     gap: 75px;
+}
+
+.baixo {
+    display: flex;
+    justify-content: center;
+}
+
+.historia {
+    width: 850px;
+    background-color: rgb(123, 182, 250);
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 315px;
+    margin-bottom: 100px;
+    flex-shrink: 0;
+    text-align: center;
+    border-radius: 25px;
+    border: #023558 solid 3px;
+    justify-content: center;
+}
+
+.titulo {
+    padding-top: 17px;
+    font-family: Cinzel Decorative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulo img, .titulo-sobre img {
+    width: 65px;
+    transition: all 1s ease;
+}
+
+.titulo img:hover, .titulo-sobre img:hover {
+    transform: scale(1.1);
+    animation: girar 0.8s linear infinite;
+}
+
+.linha {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+}
+
+.linha-horizontal {
+    width: 846px;
+    height: 1px;
+    background-color: #000000;
+    position: relative;
+    top: 37%;
 }

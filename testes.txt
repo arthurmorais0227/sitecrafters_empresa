@@ -39,3 +39,129 @@
             <div>
                 <img src="/assets/images/murilo.png" alt="Murilo Brustólin">
             </div>
+
+
+
+
+
+
+
+
+
+
+
+            header {
+    background-color: rgb(123, 182, 250);
+    color: white;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 50px;
+    gap: 40px
+}
+
+.marca {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 150px;
+}
+
+.marca img {
+    height: 100px;
+}
+
+.marca h1 {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: Cinzel Decorative;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.menu a.login-link {
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    padding: 0;
+}
+
+.menu a.login-link img.login {
+    width: 75px; 
+    height: auto;
+
+}
+
+.menu input {
+    color: azure;
+    width: 400px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: white 2px solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    height: 30px;
+    align-items: center;
+    outline: none;
+}
+
+.menu input::placeholder {
+    color: white;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+
+.menu a.menu-link, a.menu-link-sobre {
+    width: 100px;
+    height: 36px;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    transition: background-color, color 0.7s;
+    background-color: #043c61;
+    width: 100px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10PX;
+    transition: all 0.4s ease;
+
+}
+
+.menu a.menu-link-sobre::after {
+  content: "<a> arthur </a>";
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 0;
+  background-color: #ffffff;
+  border-radius: 0px 0px 15px 15px;
+  transition: height 0.4s ease;
+}
+
+.menu a.menu-link-sobre:hover {
+    background-color: white;
+    color: #000000;
+    transform: scale(1.1);
+    border-radius: 15px 15px 0px 0px;
+}
+.menu a.menu-link:hover {
+    background-color: white;
+    color: #000000;
+    transform: scale(1.1);
+}
+
+.menu a.menu-link-sobre:hover::after {
+  height: 200px;
+}

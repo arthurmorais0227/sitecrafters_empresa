@@ -257,6 +257,7 @@ main {
 }
 
 .integrantes img:hover {
+    border: none;
     content: url("/assets/images/saiba\ mais.png");
     transform: scale(1.1) rotate(2deg);
 }

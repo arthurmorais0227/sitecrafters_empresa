@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(123, 182, 250);
+    color: white;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 50px;
+    gap: 40px
+}
+
+.marca {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 150px;
+}
+
+.marca img {
+    height: 100px;
+}
+
+.marca h1 {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: Cinzel Decorative;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.menu a.login-link {
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    padding: 0;
+}
+
+.menu a.login-link img.login {
+    width: 75px; 
+    height: auto;
+
+}
+
+.menu input {
+    color: azure;
+    width: 400px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: white 2px solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    height: 30px;
+    align-items: center;
+    outline: none;
+}
+
+.menu input::placeholder {
+    color: white;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+
+.menu a.menu-link {
+    width: 100px;
+    height: 36px;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    transition: background-color, color 0.7s;
+    background-color: #043c61;
+    width: 100px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10PX;
+    transition: transform 0.4s ease;
+}
+
+
+.menu a.menu-link:hover {
+    background-color: white;
+    color: #000000;
+    transform: scale(1.1);
+}
+
+main {
+    flex: 1;
+    background-color: blanchedalmond;
+    padding: 48px 38px;
+    width: 100%;  
+}
+about-section {
+    display: block;
+    background-color: rgb(180, 132, 60);
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.texto-sobre-mim {
+    font-size: 25px
+}
+#titulo-sobre-mim {
+   font-size: 25px;
+   border-bottom: 2px solid black;
+   margin-bottom: 20px;
+} 
+
+#titulo-hobbies{
+   font-size: 25px;
+   border-bottom: 2px solid black;
+   margin-bottom: 20px;
+}
+meus-hobbies {
+    display: block;
+    background-color: rgb(180, 132, 60);
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+}
+li {
+    background-color: rgb(206, 153, 74);
+    padding: 12px;
+    border-left: 4px solid burlywood;
+    font-size: 16px;
+    min-width: 250px;
+}
+li:hover {
+    background-color: rgb(240, 204, 107);
+    transform: translateX(5px);
+    transition: all 0.3s ease;
+}
+
+contact {
+    display: block;
+    background-color: blanchedalmond;
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 15px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+ 
+contact h2 {
+    margin-bottom: 8px;
+    font-size: 25px;
+    text-align: center;
+}
+
+contact p {
+    text-align: center;
+    font-size: 25px;
+}
+
+contact a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: 2px solid rgb(180, 132, 60);
+    border-radius: 25px;
+    display: inline-block;
+}
+
+contact a:hover {
+    background-color: rgba(185, 151, 57, 0.863);
+    color:bisque;
+    transform: translateY(-2px);
+}
+
+#mudarPagina {
+    background-color: blanchedalmond;
+    text-align: center;
+    color: blanchedalmond;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+}

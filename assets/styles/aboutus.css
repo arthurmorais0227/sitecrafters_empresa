@@ -202,6 +202,20 @@ main {
     width: 80px;
 }
 
+.valores-frase img:hover {
+    animation: girar 10s linear infinite;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .valores::-webkit-scrollbar {
     height: 5px;
     width: 2px;
@@ -262,8 +276,6 @@ main {
     margin-bottom: 17px;
 }
 
-
-
 .tres-esquerda {
     display: flex;
     gap: 75px;
@@ -273,4 +285,3 @@ main {
     display: flex;
     gap: 75px;
 }
-

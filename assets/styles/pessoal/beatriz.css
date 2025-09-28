@@ -1,0 +1,189 @@
+*{ 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Spectral";
+}
+
+header {
+    background-color: rgb(123, 182, 250);
+    color: white;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 50px;
+    gap: 40px
+}
+
+.marca {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 150px;
+}
+
+.marca img {
+    height: 100px;
+}
+
+.marca h1 {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: Cinzel Decorative;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.menu a.login-link {
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    padding: 0;
+}
+
+.menu a.login-link img.login {
+    width: 75px; 
+    height: auto;
+
+}
+
+.menu input {
+    color: azure;
+    width: 400px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: white 2px solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    height: 30px;
+    align-items: center;
+    outline: none;
+}
+
+.menu input::placeholder {
+    color: white;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+
+.menu a.menu-link {
+    width: 100px;
+    height: 36px;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    transition: background-color, color 0.7s;
+    background-color: #043c61;
+    width: 100px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10PX;
+    transition: transform 0.4s ease;
+}
+
+
+.menu a.menu-link:hover {
+    background-color: white;
+    color: #000000;
+    transform: scale(1.1);
+}
+
+main {
+    background-color: rgb(243, 193, 235);
+    flex: 1;
+    padding: 48px 38px;
+    width: 100%;
+}
+
+about-section, hobbies, contact {
+    display: block;
+    background-color: rgb(243, 238, 241);
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+#titulo-sobre-mim, #titulo-hobbies {
+    font-size: 25px;
+    border-bottom: 2px solid rgb(229, 157, 226);
+    margin-bottom: 5px;
+}
+
+.texto-sobre-mim {
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+}
+
+li {
+    background-color: rgb(238, 196, 234);
+    padding: 12px;
+    border-left: 4px solid rgb(238, 145, 222);
+    font-size: 16px;
+    min-width: 250px;
+}
+
+li:hover {
+    background-color: aliceblue;
+    transform: translateX(5px);
+    transition: all 0.3s ease;
+}
+
+contact {
+    margin-top: 10px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+contact h2 {
+    margin-top: 1px auto;
+    margin-bottom: 80px;
+    font-size: 25px;
+    text-align: center;
+}
+
+contact p {
+    text-align: center;
+    font-size: 20px;
+}
+
+contact a {
+    color: rgb(241, 111, 176);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: 2px solid rgb(241, 111, 176);
+    border-radius: 25px;
+    display: inline-block;
+}
+
+contact a:hover {
+    background-color: rgb(241, 111, 176);
+    color: aliceblue; 
+    transform: translateY(-2px);
+}

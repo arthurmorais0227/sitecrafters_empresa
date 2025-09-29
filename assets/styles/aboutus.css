@@ -270,7 +270,7 @@ main {
 .integrantes img:hover {
     border: none;
     content: url("/assets/images/saiba\ mais.png");
-    transform: scale(1.1) rotate(2deg);
+    transform: scale(1.05) rotate(2deg);
 }
 
 .integrantes .murilo img:hover {
@@ -305,13 +305,38 @@ main {
 .baixo {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+}
+
+.baixo .livia-pc img {
+    height: 200px;
+    width: 300px;
+    
+    margin-top: 160px;
+    margin-right: 100px;
+}
+
+.baixo .gustavo-pc img {
+    height: 200px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 160px;
+}
+
+.baixo .gustavo-pc img, .baixo .livia-pc img {
+    border-radius: 25px;
+    border:#023558 solid 3px;
+}
+
+.baixo .gustavo-pc img:hover, .baixo .livia-pc img:hover {
+    transform: scale(1.05) translateY(-5px);
 }
 
 .historia {
     width: 850px;
     background-color: rgb(123, 182, 250);
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 0px;
     height: 315px;
     margin-bottom: 100px;
     flex-shrink: 0;
@@ -355,3 +380,43 @@ main {
     position: relative;
     top: 37%;
 }
+
+.servicos-container {
+    width: 100%;
+    min-width: 300px;
+    background: url("/assets/images/loginpage.png");
+    display: flex;
+}
+
+.servicos {
+    background-color: rgb(123, 182, 250);
+    width: 850px;
+    height: 100px;
+    height: 400px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    border-radius: 25px;
+    border: #023558 solid 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicos img {
+    height: 100px;
+}
+
+.tres-primeiros {
+    flex-direction: column;
+    display: flex;
+    gap: 17px;
+    padding-left: 50px;
+}
+
+.tres-posteriores {
+    flex-direction: column;
+    display: flex;
+    gap: 17px;
+    padding-right: 50px;
+}
+

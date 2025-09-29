@@ -3,9 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gustavo é lindo</title>
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../assets/styles/cadastro.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+    </style>
 </head>
 <body>
-    
+    <header>
+        <div class="marca">
+            <img src="../assets/images/site.png" alt="Logo dos Sitecrafters pixada com gotas de tinta na parede"
+                width="" height="200">
+            <h1>Sitecrafters</h1>
+        </div>
+        <div class="menu">
+            <input type="text" placeholder="Pesquisar" name="nome" required />
+            <div class="icones"></div>
+            <a href="/index.html" class="menu-link">Início</a>
+            <a href="/pages/aboutus.html" class="menu-link">Sobre</a>
+            <a href="/pages/contato.html" class="menu-link">Contato</a>
+            <a href="/pages/login.html" class="menu-link login-link">Login</a>
+        </div>
+    </header>
+    <main>
+        <section class="cadastro" id="register">
+            <h2>Cadastro</h2>
+            <form id="registerForm">
+                <div class="nome">
+                    <input type="text" id="username"
+                    placeholder="Nome Completo" required />
+                </div>
+                <div class="email">
+                    <input type="email" id="email" 
+                    placeholder="Email" required />
+                </div>
+                <div class="numero">
+                    <input type="number" id="number"
+                    placeholder="Número de Telefone" required />
+                </div>
+                <div class="senha">
+                    <input type="password" id="password"
+                    placeholder="Criar senha" required />
+                </div>
+                <div class="confirmar-senha">
+                    <input type="password" id="password"
+                    placeholder="Confirmar senha" required />
+                </div>
+                <div class="botao">
+                    <button type="submit">Cadastrar</button>
+                </div>
+                    <div class="cadastro-redes">
+                <a href=""><img src="/assets/images/google.png" alt="login google"></a>
+                <a href=""><img src="/assets/images/facebook.png" alt="login facebook"></a>
+            </div>
+             <div class="login">
+                <a href="/pages/login.html"><h3>Já possuí uma conta? Entre</h3></a>
+            </div>
+            </form>
+             <p id="loginMessage"></p>
+        </section>
+
+        </section>
+    </main>
 </body>
 </html>

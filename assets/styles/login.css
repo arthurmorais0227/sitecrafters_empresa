@@ -17,7 +17,7 @@ body {
 header {
   background-color: rgb(123, 182, 250);
   color: white;
-  padding: 30px 30px;
+  padding: 10px 20px;
   display: flex;
   justify-content: right;
   align-items: center;

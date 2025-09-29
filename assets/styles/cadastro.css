@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("/assets/images/loginpage.png");
+    display: flex;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(123, 182, 250);
+    color: white;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 50px;
+    gap: 40px
+}
+
+.marca {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 150px;
+}
+
+.marca img {
+    height: 100px;
+}
+
+.marca h1 {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: Cinzel Decorative;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.menu a.login-link {
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    padding: 0;
+}
+
+.menu a.login-link img.login {
+    width: 75px; 
+    height: auto;
+
+}
+
+.menu input {
+    color: azure;
+    width: 400px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: white 2px solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    height: 30px;
+    align-items: center;
+    outline: none;
+}
+
+.menu input::placeholder {
+    color: white;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+
+.menu a.menu-link {
+    width: 100px;
+    height: 36px;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    transition: background-color, color 0.7s;
+    background-color: #043c61;
+    width: 100px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10PX;
+    transition: transform 0.4s ease;
+}
+
+
+.menu a.menu-link:hover {
+    background-color: white;
+    color: #000000;
+    transform: scale(1.1);
+}
+
+main {
+  background: url("/assets/images/loginpage.png");
+  background-color: #70a2c4;
+  padding: 32px 40px;
+  width: 500px;
+  margin: 90px auto 0 auto;
+  border-radius: 50px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  border: 4px solid black;
+  display: flex;
+  justify-content: center;
+  backdrop-filter: blur(8px);
+}
+
+.botao,
+.botao:hover {
+  display: flex;
+  justify-content: center;
+}
+
+.botao button:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  transform: translateY(-2px);
+  transform: scale(1.1);
+}
+
+.nome,
+.email,
+.numero,
+.senha,
+.confirmar-senha
+ {
+  display: flex;
+  justify-content: center;
+}
+
+.nome input,
+.email input,
+.numero input,
+.senha input,
+.confirmar-senha input{
+  color: rgb(0, 0, 0);
+  height: 50px;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  border: none;
+  padding: 17px 45px 0px 0px;
+  border-bottom: rgb(0, 0, 0) 2px solid;
+  font-family: Cambria;
+  font-size: larger;
+  margin-bottom: 30px;
+  outline: none;
+}
+
+.nome input::placeholder,
+.email input::placeholder,
+.numero input::placeholder,
+.senha input::placeholder,
+.confirmar-senha input::placeholder {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  transition: all 0.5s ease;
+}
+
+.nome input:hover::placeholder,
+.email input:hover::placeholder,
+.numero input:hover::placeholder,
+.senha input:hover::placeholder,
+.confirmar-senha input:hover::placeholder{
+  color: rgb(0, 0, 0);
+  transform: translateY(-27px);
+}
+
+main h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+  font-size: 40px;
+}
+
+.cadastro-redes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.cadastro-redes img {
+  width: 400px;
+  height: 45px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.cadastro-redes img:hover {
+  transform: scale(1.05);
+}
+
+.botao button {
+  margin: 30px;
+  width: 150px;
+  height: 47px;
+  border-radius: 25px;
+  border: none;
+  transition: all 0.5s ease;
+  transition: transform 0.4s ease;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.login a{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}

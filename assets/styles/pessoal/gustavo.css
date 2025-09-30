@@ -164,7 +164,8 @@ li:hover {
 }
 
 .forms img {
-   display: flex;
+    display: block;
+    margin: 0 auto;
     width: 400px;
     height: auto;
     border-radius: 25px;

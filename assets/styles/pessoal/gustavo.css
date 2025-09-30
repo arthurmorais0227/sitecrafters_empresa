@@ -107,13 +107,13 @@ header {
 
 main {
     flex: 1;
-    background-color: blanchedalmond;
+    background-color: rgb(86, 169, 247);
     padding: 48px 38px;
     width: 100%;  
 }
 about-section {
     display: block;
-    background-color: rgb(180, 132, 60);
+    background-color: rgb(46, 141, 219);
     width: 80%;
     margin: 0 auto;
     padding: 40px;
@@ -137,7 +137,7 @@ about-section {
 }
 meus-hobbies {
     display: block;
-    background-color: rgb(180, 132, 60);
+    background-color: rgb(46, 141, 219);
     width: 80%;
     margin: 0 auto;
     padding: 40px;
@@ -151,21 +151,30 @@ ul {
     gap: 12px;
 }
 li {
-    background-color: rgb(206, 153, 74);
+    background-color: rgb(41, 127, 207);
     padding: 12px;
-    border-left: 4px solid burlywood;
+    border-left: 4px solid rgb(29, 107, 180);
     font-size: 16px;
     min-width: 250px;
 }
 li:hover {
-    background-color: rgb(240, 204, 107);
+    background-color: rgb(46, 141, 219);
     transform: translateX(5px);
     transition: all 0.3s ease;
 }
 
+.forms img {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+    border-radius: 25px;
+    border: 4.5px solid black;
+}
+
 contact {
     display: block;
-    background-color: blanchedalmond;
+    background-color: rgb(46, 141, 219);
     width: 80%;
     margin: auto;
     padding: 40px;
@@ -197,15 +206,7 @@ contact a {
 }
 
 contact a:hover {
-    background-color: rgba(185, 151, 57, 0.863);
-    color:bisque;
+    background-color: rgba(34, 100, 175, 0.863);
+    color:rgb(19, 136, 165);
     transform: translateY(-2px);
-}
-
-#mudarPagina {
-    background-color: blanchedalmond;
-    text-align: center;
-    color: blanchedalmond;
-    padding: 0.5rem 1rem;
-    margin: 0 0.5rem;
 }

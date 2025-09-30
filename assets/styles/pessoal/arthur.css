@@ -106,28 +106,74 @@ header {
 }
 
 main {
-    background-color: rgb(240, 248, 255);
+    background: url("/assets/images/loginpage.png");
     flex: 1;
     padding: 48px 20px;
     width: 100%;
 }
 
-about-section,
+.about {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(123, 182, 250);
+    width: 90%;
+    max-width: 900px;
+    padding: 5px 20px 40px 20px;
+    border-radius: 12px;
+    border: #043c61 solid 3px;
+}
+
+
+#titulo-sobre-mim {
+    font-size: 2rem;
+    border-bottom: 2px solid #043c61;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+}
+
+
+
 hobbies,
 contact {
     display: block;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(123, 182, 250);
     width: 90%;
     max-width: 900px;
     margin: 0 auto 40px auto;
     padding: 40px 20px;
     border-radius: 12px;
+    border: #043c61 solid 3px;
 }
 
-#titulo-sobre-mim,
+.imagem-eu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    font-family: Cinzel Decorative;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+
+.imagem-eu img {
+    content: url("/assets/images/arthur.png");
+    border: #043c61 solid 3px;
+    height: 350px;
+    border-radius: 12px;
+}
+
 #titulo-meus-hobbies {
     font-size: 2rem;
-    border-bottom: 2px solid rgb(43, 129, 228);
+    border-bottom: 2px solid #043c61;
     margin-bottom: 20px;
     padding-bottom: 8px;
 }
@@ -149,7 +195,7 @@ ul {
 li {
     background-color: rgb(106, 173, 250);
     padding: 12px;
-    border-left: 4px solid rgb(43, 129, 228);
+    border-left: 4px solid #043c61;
     font-size: 16px;
     min-width: 200px;
     border-radius: 12px;
@@ -157,16 +203,19 @@ li {
 }
 
 li:hover {
-    background-color: rgb(43, 129, 228);
+    background-color: #043c61;
+    color: white;
     transform: translateX(5px);
     transition: all 0.5s ease;
 }
 
 contact h2 {
+    padding-top: 0px;
+    padding-bottom: 20px;
     margin-bottom: 30px;
     font-size: 25px;
     text-align: center;
-    border-bottom: 1px solid rgb(43, 129, 228);
+    border-bottom: 2px solid #043c61;
 }
 
 contact p {
@@ -187,7 +236,8 @@ contact a {
 }
 
 contact a:hover {
-    background-color: rgb(43, 129, 228);
+    background-color: #043c61;
     color: white;
     transform: translateY(-2px);
+    border: #043c61;
 }

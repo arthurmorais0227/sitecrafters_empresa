@@ -405,6 +405,12 @@ main {
 
 .servicos img {
     height: 100px;
+    transition: 0.3s;
+}
+
+.servicos img:hover {
+    transform: scale(1.05);
+    height: 100px;
 }
 
 .tres-primeiros {
@@ -443,5 +449,94 @@ main {
     margin-top: 60px;
 }
 
+.faq {
+    width: 600px;
+    height: 220px;
+    background-color: rgb(123, 182, 250);
+    margin-top: 87px;
+    display: flex;
+    padding: 10px;
+    overflow-x: scroll;
+    border-radius: 25px;
+    gap: 10px;
+    font-family: Cinzel Decorative;
+}
 
+.faq>div:not(.faq-frase) {
+    min-width: 580px;
+    max-width: 550px;
+    background-color: rgb(123, 182, 250);
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #023558;
+    gap: 30px;
+    border-radius: 25px;
+}
+
+ .pergunta1 {
+    min-width: 580px;
+    max-width: 550px;
+    background-color: rgb(123, 182, 250);
+    display: flex;
+    flex-direction: row;
+}
+
+.faq div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 20px;
+}
+
+.faq-frase {
+    min-width: 580px;
+    max-width: 550px;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #023558;
+    border-radius: 25px;
+    gap: 30px;
+    margin-right: 30px;
+}
+
+.faq img {
+    width: 80px;
+}
+
+.faq-frase img:hover {
+    animation: girar 0.8s linear infinite;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.faq::-webkit-scrollbar {
+    height: 5px;
+    width: 2px;
+}
+
+.faq::-webkit-scrollbar-thumb {
+    background: #023558;
+    border-radius: 10px;
+
+}
+
+.faq::-webkit-scrollbar-thumb:hover {
+    background: #035b8c;
+}
 

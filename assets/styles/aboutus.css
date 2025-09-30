@@ -386,6 +386,7 @@ main {
     min-width: 300px;
     background: url("/assets/images/loginpage.png");
     display: flex;
+    justify-content: space-around;
 }
 
 .servicos {
@@ -419,4 +420,28 @@ main {
     gap: 17px;
     padding-right: 50px;
 }
+
+.img1, .img2, .img3 {
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.img4, .img5, .img6 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    font-size: 19px;
+}
+
+.img1 p, .img2 p, .img3 p {
+    margin-top: 8px;
+}
+
+.img4 p, .img5 p, .img6 p {
+    margin-top: 60px;
+}
+
+
 

@@ -159,7 +159,7 @@ main {
 }
 
 
-.valores {
+.valores, .parceiros {
     width: 600px;
     height: 220px;
     background-color: rgb(123, 182, 250);
@@ -449,41 +449,24 @@ main {
     margin-top: 60px;
 }
 
-.faq {
-    width: 600px;
-    height: 220px;
-    background-color: rgb(123, 182, 250);
-    margin-top: 87px;
-    display: flex;
-    padding: 10px;
-    overflow-x: scroll;
-    border-radius: 25px;
-    gap: 10px;
-    font-family: Cinzel Decorative;
-}
 
-.faq>div:not(.faq-frase) {
-    min-width: 580px;
-    max-width: 550px;
+
+.parceiros>div:not(.parceiros-frase) {
+    min-width: 220px;
+    max-width: 220px;
     background-color: rgb(123, 182, 250);
     margin-left: 0px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 2px solid #023558;
-    gap: 30px;
+    gap: 23px;
     border-radius: 25px;
+    text-align: center;
 }
 
- .pergunta1 {
-    min-width: 580px;
-    max-width: 550px;
-    background-color: rgb(123, 182, 250);
-    display: flex;
-    flex-direction: row;
-}
-
-.faq div p {
+.parceiros>div p:not(.descricao){
     display: flex;
     justify-content: center;
     align-items: center;
@@ -491,9 +474,17 @@ main {
     font-weight: bolder;
     color: black;
     font-size: 20px;
+
 }
 
-.faq-frase {
+.descricao {
+    font-size: 15px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.parceiros-frase {
     min-width: 580px;
     max-width: 550px;
     flex: 2;
@@ -507,11 +498,11 @@ main {
     margin-right: 30px;
 }
 
-.faq img {
+.parceiros img {
     width: 80px;
 }
 
-.faq-frase img:hover {
+.parceiros img:hover {
     animation: girar 0.8s linear infinite;
 }
 
@@ -525,18 +516,20 @@ main {
     }
 }
 
-.faq::-webkit-scrollbar {
+.parceiros::-webkit-scrollbar {
     height: 5px;
     width: 2px;
 }
 
-.faq::-webkit-scrollbar-thumb {
+.parceiros::-webkit-scrollbar-thumb {
     background: #023558;
     border-radius: 10px;
 
 }
 
-.faq::-webkit-scrollbar-thumb:hover {
+.parceiros::-webkit-scrollbar-thumb:hover {
     background: #035b8c;
 }
+
+
 

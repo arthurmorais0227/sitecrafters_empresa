@@ -159,7 +159,7 @@ main {
 }
 
 
-.valores, .parceiros {
+.valores {
     width: 600px;
     height: 220px;
     background-color: rgb(123, 182, 250);
@@ -395,7 +395,7 @@ main {
     height: 100px;
     height: 500px;
     margin-left: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     border-radius: 25px;
     border: #023558 solid 3px;
     display: flex;
@@ -465,6 +465,18 @@ main {
     margin-top: 60px;
 }
 
+.parceiros {
+    width: 600px;
+    height: 220px;
+    background-color: rgb(123, 182, 250);
+    margin-top: 150px;
+    display: flex;
+    padding: 10px;
+    overflow-x: scroll;
+    border-radius: 25px;
+    gap: 10px;
+    font-family: Cinzel Decorative;
+}
 
 
 .parceiros>div:not(.parceiros-frase) {
@@ -479,6 +491,11 @@ main {
     border: 2px solid #023558;
     border-radius: 25px;
     text-align: center;
+}
+
+.parceiros>div:not(.parceiros-frase):hover {
+    transform: scale(1.03);
+    box-shadow: 0px 8px 20px rgba(0, 0 0, 0.3);
 }
 
 .parceiros>div p:not(.descricao){
@@ -515,22 +532,13 @@ main {
     margin-right: 30px;
 }
 
+
 .parceiros img {
     width: 80px;
 }
 
 .parceiros img:hover {
-    animation: girar 0.8s linear infinite;
-}
-
-@keyframes girar {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
+    animation: girar 2s ease-in-out infinite;
 }
 
 .parceiros::-webkit-scrollbar {
@@ -548,5 +556,17 @@ main {
     background: #035b8c;
 }
 
+footer {
+    background-color: rgb(123, 182, 250);
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cinzel Decorative;
+    font-weight: bold;
+    border-top: #023558 solid 4px;
+    border-bottom: #023558 solid 4px;
 
-
+}

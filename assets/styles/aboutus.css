@@ -383,7 +383,7 @@ main {
 
 .servicos-container {
     width: 100%;
-    min-width: 300px;
+    min-width: 400px;
     background: url("/assets/images/loginpage.png");
     display: flex;
     justify-content: space-around;
@@ -393,14 +393,30 @@ main {
     background-color: rgb(123, 182, 250);
     width: 850px;
     height: 100px;
-    height: 400px;
+    height: 500px;
     margin-left: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     border-radius: 25px;
     border: #023558 solid 3px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+}
+
+.servicos h1 {
+    margin-top: 20px;
+    font-family: Cinzel Decorative;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.servicos-lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
 }
 
 .servicos img {
@@ -461,7 +477,6 @@ main {
     justify-content: center;
     align-items: center;
     border: 2px solid #023558;
-    gap: 23px;
     border-radius: 25px;
     text-align: center;
 }
@@ -474,10 +489,12 @@ main {
     font-weight: bolder;
     color: black;
     font-size: 20px;
-
+    margin-bottom: 15px;
 }
 
+
 .descricao {
+    padding-top: 10px;
     font-size: 15px;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

@@ -214,38 +214,54 @@ main h2 {
   color: black;
 }
 
+
 .informacoes {
-    background-color: #043c61;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    border: 4px solid black;
-    color: white;
-    outline: none;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    width: auto;
+  background-color: #043c61;
+  border: 4px solid black;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;   /* empilha elementos */
+  align-items: center;      /* centraliza na horizontal */
+  justify-content: center;  /* centraliza na vertical */
+  padding: 10px;
+  margin: 9px 0;
+  width: 400px;   /* define largura fixa */
+  height: 40px;  /* define altura fixa */
+  transition: background-color 0.4s ease, color 0.4s ease, transform 0.4s ease;
 }
-.informacoes:hover{
-  background-color: rgb(38, 26, 209);
-  color: rgb(255, 255, 255);
-  transform: translateY(-2px);
+
+
+.informacoes:hover {
+  background-color: white;
+  color: #043c61;
   transform: scale(1.1);
-  
+}
+
+.informacoes h3 {
+  margin: 0;
+}
+
+.descricao{
+  font-size: 12px;
+  color: #ddd;
+  margin-top: 5px;
 }
 
 .cubo{
   background-color: #70a2c4;
   padding: 32px 40px;
   width: 500px;
+  height: 370px;
   margin: 90px auto 0 auto;
   border-radius: 50px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
   border: 4px solid black;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  justify-items: center;
 }
 
 
@@ -315,3 +331,23 @@ main h2 {
   color: #000000;
   transform: scale(1.1);
 }
+
+.linha{
+  width: 160px;
+  background-color: #043c61;
+  height: 2px;
+}
+
+.empresa{
+  height: 500px;
+  width: auto;
+}
+
+.conteudo {
+  display: flex;                 
+  justify-content: center;     
+  align-items: center;          
+  gap: 50px;                     
+  margin-top: 60px;              
+}
+

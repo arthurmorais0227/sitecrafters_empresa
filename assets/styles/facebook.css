@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+}
+
+
+.logo {
+    color: #1877f2;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.texto p {
+    font-size: 20px;
+    color: #1c1e21;
+}
+
+
+.login-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.login-box .entrar {
+    background-color: #1877f2;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.login-box .entrar:hover {
+    background-color: #166fe5;
+}
+
+
+.login-box hr {
+    margin: 20px 0;
+    border: 0.5px solid #ddd;
+}
+
+
+.login-box .nova-conta:hover {
+    background-color: #36a420;
+}

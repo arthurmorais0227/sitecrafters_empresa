@@ -180,3 +180,14 @@ termos {
 .sobre-termos {
     font-style: italic;
 }
+
+button {
+    margin-left: 30px;
+    gap: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 2px;
+}

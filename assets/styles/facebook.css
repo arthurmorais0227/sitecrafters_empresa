@@ -49,6 +49,7 @@ body {
     border: 1px solid #ddd;
     border-radius: 6px;
     font-size: 16px;
+    text-decoration: none;
 }
 
 .login-box .entrar {
@@ -60,10 +61,16 @@ body {
     padding: 12px;
     width: 100%;
     margin-top: 10px;
+   
+}
+
+.entrar a {
+    text-decoration: none;
+    color: white;
 }
 
 .login-box .entrar:hover {
-    background-color: #166fe5;
+    border: #1877f2 solid 3px;
 }
 
 

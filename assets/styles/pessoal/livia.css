@@ -1,15 +1,14 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
-/* Configurações Gerais */
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: "Libre Baskerville";
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header {
@@ -107,104 +106,142 @@ header {
 }
 
 main {
-    background-color: rgb(147, 174, 206);
+    background: url("/assets/images/loginpage.png");
     flex: 1;
-    padding: 48px 38px;
+    padding: 48px 20px;
     width: 100%;
 }
 
-about-section {
-    display: block;
-    background-color: white;
-    width: 80%;
-    margin: 0 auto;
-    padding: 40px;
-    border-radius: 20px;
-    margin-bottom: 30px;
+.about {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
 
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(123, 182, 250);
+    width: 90%;
+    max-width: 900px;
+    padding: 5px 20px 40px 20px;
+    border-radius: 12px;
+    border: #043c61 solid 3px;
+}
+
+
 #titulo-sobre-mim {
-    font-size: 30px;
-    border-bottom: 2px solid rgb(104, 142, 199);
-    margin-bottom: 10px;
+    font-size: 2rem;
+    border-bottom: 2px solid #043c61;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+}
+
+
+
+hobbies,
+contact {
+    display: block;
+    background-color: rgb(123, 182, 250);
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    padding: 40px 20px;
+    border-radius: 12px;
+    border: #043c61 solid 3px;
+}
+
+.imagem-eu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    font-family: Cinzel Decorative;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+
+.imagem-eu img {
+    content: url("/assets/images/livia.png");
+    border: #043c61 solid 3px;
+    height: 350px;
+    border-radius: 12px;
+}
+
+#titulo-meus-hobbies {
+    font-size: 2rem;
+    border-bottom: 2px solid #043c61;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
 }
 
 .texto-sobre-mim {
-    font-size: 15px;
-}
-
-hobbies {
-    display: block;
-    background-color: white;
-    width: 80%;
-    margin: 0 auto;
-    padding: 40px;
-    border-radius: 20px;
-    margin-bottom: 30px;
-}
-
-#titulo-hobbies {
-    font-size: 30px;
-    border-bottom: 2px solid rgb(104, 142, 199);
-    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 ul {
     list-style: none;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     gap: 12px;
+    justify-content: center;
 }
 
 li {
-    background-color: rgb(158, 184, 224);
+    background-color: rgb(106, 173, 250);
     padding: 12px;
-    border-left: 3px solid rgb(0, 0, 0);
+    border-left: 4px solid #043c61;
     font-size: 16px;
-    min-width: 250px;
+    min-width: 200px;
+    border-radius: 12px;
+    text-align: center;
 }
 
 li:hover {
-    background-color: rgb(181, 216, 233);
+    background-color: #043c61;
+    color: white;
     transform: translateX(5px);
-    transition: all 0.3s ease;
-}
-
-contact {
-    display: block;
-    background-color: white;
-    width: 80%;
-    margin: 0 auto;
-    padding: 40px;
-    border-radius: 20px;
-    margin-bottom: 30px;
+    transition: all 0.5s ease;
 }
 
 contact h2 {
-    margin-bottom: 8px;
-    font-size: 30px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
     text-align: center;
+    border-bottom: 2px solid #043c61;
 }
 
 contact p {
     text-align: center;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 contact a {
-    color: rgb(88, 88, 155);
+    color: rgb(43, 129, 228);
     text-decoration: none;
     font-weight: bold;
     padding: 0.5rem 1rem;
-    margin: 0 0.5rem;
-    border: 2px solid rgb(33, 33, 58);
+    margin: 0.5rem;
+    border: 2px solid rgb(43, 129, 228);
     border-radius: 25px;
     display: inline-block;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 contact a:hover {
-    background-color: rgb(69, 75, 129);
+    background-color: #043c61;
     color: white;
     transform: translateY(-2px);
+    border: #043c61;
+}
+
+.texto-sobre-mim {
+    margin-bottom: 5px;
 }

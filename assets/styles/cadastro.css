@@ -187,6 +187,13 @@ main h2 {
   font-size: 40px;
 }
 
+.termos {
+  margin-bottom: 40px;
+  background-color: #70a2c4;
+  text-decoration: none;
+  text-align: center;
+}
+
 .cadastro-redes {
   display: flex;
   justify-content: center;

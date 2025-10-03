@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width: 100%;
-  min-height: 100vh;
+
 }
 
 header {
@@ -31,8 +31,23 @@ header {
   padding-right: 150px;
 }
 
+
+
 .marca img {
   height: 100px;
+  animation: piscar 1s infinite;
+}
+
+@keyframes piscar {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .marca h1 {
@@ -111,18 +126,19 @@ main {
   background: url("/assets/images/loginpage.png");
   width: 100%;
   min-height: 100vh;
+  flex-direction: column;
+}
+
+.logoContainer{
+  margin-top: 200px;
   display: flex;
   justify-content: center;
 }
 
-.logoContainer{
-  margin-top: 100px;
-}
-
 .imagem-site {
-  height: 400px;
+  height: 500px;
   animation: blinkEffect 2s linear forwards;
-  
+  margin-bottom: 300px;
 }
 
 @keyframes blinkEffect {
@@ -138,4 +154,115 @@ main {
     opacity: 1; 
     scale: 1;
   }
+}
+
+.principal-container {
+  margin-top: 100px;
+  height: 400px;
+  width: 100%; 
+  flex-direction: column;
+}
+
+.clientes {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Cinzel Decorative;
+}
+
+.titulo-clientes {
+  margin-bottom: 100px;
+  color: white;
+}
+
+.clientes-divs {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+}
+
+.cliente1, .cliente2, .cliente3 {
+  min-height: 200px;
+  min-width: 200px;
+  background-color: rgb(123, 182, 250);
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  border-radius: 10px;
+  transition: transform 1s ease;
+}
+
+.cliente1 img, .cliente2 img, .cliente3 img {
+  height: 160px;
+}
+
+.cliente1 img:hover, .cliente2 img:hover, .cliente3 img:hover {
+  transform: scale(1.1);
+}
+
+.diferenciais {
+  margin-top: 300px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.diferenciais h1 {
+  font-family: Cinzel Decorative;
+}
+
+.titulo-diferenciais {
+  margin-bottom: 100px;
+  color: white;
+}
+
+.diferenciais-divs {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+}
+
+.diferencial1, .diferencial2 {
+  min-height: 200px;
+  min-width: 200px;
+  background-color: rgb(123, 182, 250);
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  border-radius: 10px;
+  transition: transform 1s ease;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.diferencial1 img, .diferencial2 img {
+  margin-bottom: 20px;
+  height: 160px;
+}
+
+.diferencial1 img:hover, .diferencial2 img:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: rgb(123, 182, 250);
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Cinzel Decorative;
+  font-weight: bold;
+  border-top: #023558 solid 4px;
+  border-bottom: #023558 solid 4px;
+  margin-top: 900px;
 }

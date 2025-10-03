@@ -241,3 +241,7 @@ contact a:hover {
     transform: translateY(-2px);
     border: #043c61;
 }
+
+.texto-sobre-mim {
+    margin-bottom: 5px;
+}

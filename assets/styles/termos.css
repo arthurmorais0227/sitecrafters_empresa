@@ -5,6 +5,7 @@
 }
 
 body {
+    background: url("/assets/images/loginpage.png");
     display: flex;
     flex-direction: column;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -107,7 +108,7 @@ header {
 }
 
 termos {
-    max-width: 700px;
+    max-width: 800px;
     margin: 40px auto;
     display: block;
     font-family: Arial, sans-serif;
@@ -118,7 +119,7 @@ termos {
 }
 
 .termos-conteudo {
-    max-height: 350px; 
+    max-height: 650px; 
     overflow-y: scroll;
     padding: 20px;
     background-color: #fff;
@@ -172,3 +173,10 @@ termos {
     accent-color: #007bff; 
 }
 
+.titulo-termos {
+    font-weight: bold;
+}
+
+.sobre-termos {
+    font-style: italic;
+}

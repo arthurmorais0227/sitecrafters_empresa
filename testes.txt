@@ -165,3 +165,304 @@
 .menu a.menu-link-sobre:hover::after {
   height: 200px;
 }
+
+
+
+
+//// murilo css
+main {
+  background-color: #70a2c4;
+  padding: 32px 40px;
+  width: 500px;
+  margin: 90px auto 0 auto;
+  border-radius: 50px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  border: 4px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.botao,
+.botao:hover {
+  display: flex;
+  justify-content: center;
+}
+
+.botao button:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  transform: translateY(-2px);
+  transform: scale(1.1);
+}
+
+.usuario,
+.senha {
+  display: flex;
+  justify-content: center;
+}
+
+.usuario input,
+.senha input {
+  color: rgb(0, 0, 0);
+  height: 50px;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  border: none;
+  padding: 17px 45px 0px 0px;
+  border-bottom: rgb(0, 0, 0) 2px solid;
+  font-family: Cambria;
+  font-size: larger;
+  margin-bottom: 30px;
+  outline: none;
+}
+
+.usuario input::placeholder,
+.senha input::placeholder {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  transition: all 0.5s ease;
+}
+
+.usuario input:hover::placeholder,
+.senha input:hover::placeholder {
+  color: rgb(0, 0, 0);
+  transform: translateY(-27px);
+}
+
+main h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+  font-size: 40px;
+}
+
+.login-redes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.login-redes img {
+  width: 400px;
+  height: 45px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.login-redes img:hover {
+  transform: scale(1.05);
+}
+
+.botao button {
+  margin: 30px;
+  width: 150px;
+  height: 47px;
+  border-radius: 25px;
+  border: none;
+  transition: all 0.5s ease;
+  transition: transform 0.4s ease;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cadastro a{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+
+
+.informacoes {
+  background-color: #043c61;
+  border: 4px solid black;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;   /* empilha elementos */
+  align-items: center;      /* centraliza na horizontal */
+  justify-content: center;  /* centraliza na vertical */
+  padding: 10px;
+  margin: 9px 0;
+  width: 400px;   /* define largura fixa */
+  height: 40px;  /* define altura fixa */
+  transition: background-color 0.4s ease, color 0.4s ease, transform 0.4s ease;
+}
+
+
+.informacoes:hover {
+  background-color: white;
+  color: #043c61;
+  transform: scale(1.1);
+}
+
+.informacoes h3 {
+  margin: 0;
+}
+
+.descricao{
+  font-size: 12px;
+  color: #ddd;
+  margin-top: 5px;
+}
+
+.cubo{
+  background-color: #70a2c4;
+  padding: 32px 40px;
+  width: 500px;
+  height: 370px;
+  margin: 90px auto 0 auto;
+  border-radius: 50px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
+
+
+.menuHome {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 30px;
+  align-items: center;
+  align-self: center;
+}
+
+.menuHome a.login-link {
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+
+.menuHome a.login-link img.login {
+  width: 75px;
+  height: auto;
+
+}
+
+.menuHome input {
+  color: azure;
+  width: 400px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: white 2px solid;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  height: 30px;
+  align-items: center;
+  outline: none;
+}
+
+.menuHome input::placeholder {
+  color: white;
+  display: inline-block;
+  transition: all 0.5s ease;
+}
+
+
+.menuHome a.menu-link {
+  width: 100px;
+  height: 36px;
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+  transition: background-color, color 0.7s;
+  background-color: #043c61;
+  width: 100px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10PX;
+  transition: transform 0.4s ease;
+}
+
+
+.menuHome a.menu-link:hover {
+  background-color: white;
+  color: #000000;
+  transform: scale(1.1);
+}
+
+.linha{
+  width: 160px;
+  background-color: #043c61;
+  height: 2px;
+}
+
+.empresa{
+  height: 500px;
+  width: auto;
+}
+
+.conteudo {
+  display: flex;                 
+  justify-content: center;     
+  align-items: center;          
+  gap: 50px;                     
+  margin-top: 60px;              
+}
+
+
+murilo html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <div class="marca">
+            <img src="../assets/images/site.png" alt="Logo dos Sitecrafters pixada com gotas de tinta na parede"
+                width="" height="200">
+            <h1>Sitecrafters</h1>
+        </div>
+        <div class="menu">
+            <input type="text" placeholder="Pesquisar" name="nome" required />
+            <div class="icones"></div>
+            <a href="/index.html" class="menu-link">Início</a>
+            <a href="/pages/aboutus.html" class="menu-link">Sobre</a>
+            <a href="/pages/contato.html" class="menu-link">Contato</a>
+            <a href="/pages/login.html" class="menu-link login-link">Login</a>
+        </div>
+    </header>
+<div class="conteudo">
+  <img src="./assets/images/sitecarfterSemFundo.png"  
+       alt="Logo dos Sitecrafters" 
+       class="empresa">
+
+  <div class="cubo">
+      <h1 style="color: white;">Saiba Mais</h1>
+      <div class="linha"></div>
+      <div>
+          <a href="/index.html" class="informacoes"><h3>Início</h3></a>
+      </div>
+      <div>
+          <a href="/pages/aboutus.html" class="informacoes"><h3>Sobre</h3></a>
+      </div>
+      <div>
+          <a href="/pages/contato.html" class="informacoes"><h3>Contato</h3></a>
+      </div>
+      <div>
+          <a href="/pages/login.html" class="informacoes"><h3>Login</h3></a>
+      </div>
+  </div>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(123, 182, 250);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 50px;
+    gap: 40px
+}
+
+.marca {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 150px;
+}
+
+.marca img {
+    height: 100px;
+}
+
+.marca h1 {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: Cinzel Decorative;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.menu a.login-link {
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    padding: 0;
+}
+
+.menu a.login-link img.login {
+    width: 75px; 
+    height: auto;
+
+}
+
+.menu input {
+    color: azure;
+    width: 400px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: white 2px solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    height: 30px;
+    align-items: center;
+    outline: none;
+}
+
+.menu input::placeholder {
+    color: white;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+
+.menu a.menu-link {
+    width: 100px;
+    height: 36px;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    transition: background-color, color 0.7s;
+    background-color: #043c61;
+    width: 100px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10PX;
+    transition: transform 0.4s ease;
+}
+
+
+.menu a.menu-link:hover {
+    background-color: white;
+    color: #000000;
+    transform: scale(1.1);
+}
+
+termos {
+    max-width: 700px;
+    margin: 40px auto;
+    display: block;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fcfcfc;
+}
+
+.termos-conteudo {
+    max-height: 350px; 
+    overflow-y: scroll;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd; 
+}
+
+.termos-conteudo h1 {
+    font-size: 1.8em;
+    color: #004d99; 
+    margin-bottom: 10px;
+}
+
+.termos-conteudo h2 {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.termos-conteudo p, .termos-conteudo li {
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 0.95em;
+}
+
+.termos-conteudo strong {
+    font-weight: bold;
+    color: #000;
+}
+
+.termos-aceitar {
+    padding: 15px 20px;
+    background-color: #e8f0fe;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.termos-aceitar label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    color: #007bff;
+}
+
+.termos-aceitar input[type="checkbox"] {
+    transform: scale(1.4); 
+    margin-right: 12px;
+    accent-color: #007bff; 
+}
+

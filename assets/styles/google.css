@@ -19,6 +19,7 @@
     margin: 40px auto;
     padding-top: 30px;
     flex-direction: column;
+    border-radius: 10px;
 }
 
 .login {

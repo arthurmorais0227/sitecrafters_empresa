@@ -1,45 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="./assets/styles/index.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
-    </style>
-</head>
-<body>
-  <header>
-        <div class="marca">
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../assets/styles/index.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+        </style>
+        <title>Início</title>
+    </head>
 
+<body>
+    <header>
+        <div class="marca">
+            <img src="../assets/images/site.png" alt="Logo dos Sitecrafters pixada com gotas de tinta na parede"
+                width="" height="200">
             <h1>Sitecrafters</h1>
         </div>
-        <div class="menuHome">
-
+        <div class="menu">
+            <input type="text" placeholder="Pesquisar" name="nome" required />
+            <div class="icones"></div>
+            <a href="/index.html" class="menu-link">Início</a>
+            <a href="/pages/aboutus.html" class="menu-link">Sobre</a>
+            <a href="/pages/contato.html" class="menu-link">Contato</a>
+            <a href="/pages/login.html" class="menu-link login-link">Login</a>
         </div>
     </header>
-<div class="conteudo">
-  <img src="./assets/images/sitecarfterSemFundo.png"  
-       alt="Logo dos Sitecrafters" 
-       class="empresa">
-
-  <div class="cubo">
-      <h1 style="color: white;">Saiba Mais</h1>
-      <div class="linha"></div>
-      <div>
-          <a href="/index.html" class="informacoes"><h3>Início</h3></a>
-      </div>
-      <div>
-          <a href="/pages/aboutus.html" class="informacoes"><h3>Sobre</h3></a>
-      </div>
-      <div>
-          <a href="/pages/contato.html" class="informacoes"><h3>Contato</h3></a>
-      </div>
-      <div>
-          <a href="/pages/login.html" class="informacoes"><h3>Login</h3></a>
-      </div>
-  </div>
-</div>
+    <main>
+        <div class="logoContainer">
+            <img src="./assets/images/site.png" class="imagem-site" alt="Logo pixada">
+        </div>
+    </main>
 </body>
 </html>

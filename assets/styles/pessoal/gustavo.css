@@ -165,7 +165,7 @@ contact {
 }
 
 .imagem-eu img {
-    content: url("/assets/images/arthur.png");
+    content: url("/assets/images/gustavo.png");
     border: #043c61 solid 3px;
     height: 350px;
     border-radius: 12px;
@@ -240,4 +240,8 @@ contact a:hover {
     color: white;
     transform: translateY(-2px);
     border: #043c61;
+}
+
+.texto-sobre-mim {
+    margin-bottom: 5px;
 }

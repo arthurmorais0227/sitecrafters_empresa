@@ -14,6 +14,8 @@ Este projeto foi desenvolvido por:
 
 Arthur Morais
 
+Gustavo Victor Ferreira
+
 Murilo Milan
 
 Beatriz Miotto

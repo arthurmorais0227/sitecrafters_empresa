@@ -1,22 +1,23 @@
-# SITECRAFTERS
+🚀 SITECRAFTERS
 
-A empresa correta para fazer seu site!
+A empresa certa para criar o seu site!
 
-Esse é um projeto de uma empresa focada em desenvolvimento web
-Nossos funcionarios são:
-    Arthur Morais;
-    Murilo Milan;
-    Daniel Cassali;
-    Beatriz Miotto;
-    Bianca Luiza;
-    Livia Oliveira;
+🧩 Sobre o Projeto
 
-O projeto é feito em HTML e CSS as linguagens foram usadas para fazer um desenvolvimento de um site empresarial
+SITECRAFTERS é um projeto de uma empresa fictícia voltada para o desenvolvimento web, utilizando as linguagens HTML e CSS para construir um site institucional moderno e funcional.
 
-Nós temos:
-    Uma pagina principal;
-    Uma pagina sobre nós;
-    uma pagina de contato;
-    uma pagina de termos;
-    uma pagina de de login com google e facebook;
-    Paginas de informação sobre cada um dos membros;
+Nosso objetivo é oferecer um ambiente digital que represente bem a identidade da empresa e facilite a comunicação com o público-alvo.
+
+👥 Equipe de Desenvolvimento
+
+Este projeto foi desenvolvido por:
+
+Arthur Morais
+
+Murilo Milan
+
+Beatriz Miotto
+
+Bianca Luiza
+
+Livia Oliveira

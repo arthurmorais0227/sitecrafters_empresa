@@ -2,11 +2,13 @@
 
 A empresa certa para criar o seu site!
 
+
 🧩 Sobre o Projeto
 
 SITECRAFTERS é um projeto de uma empresa fictícia voltada para o desenvolvimento web, utilizando as linguagens HTML e CSS para construir um site institucional moderno e funcional.
 
 Nosso objetivo é oferecer um ambiente digital que represente bem a identidade da empresa e facilite a comunicação com o público-alvo.
+
 
 👥 Equipe de Desenvolvimento
 
@@ -24,13 +26,16 @@ Bianca Luiza
 
 Livia Oliveira
 
+
 🛠️ Tecnologias Utilizadas
 
-HTML5
+-HTML5
 
-CSS3
+-CSS3
+
 
 📄 Estrutura do Site
+
 
 O site conta com as seguintes páginas:
 
@@ -46,9 +51,11 @@ Login – Autenticação via Google e Facebook
 
 Páginas Individuais dos Membros – Perfil de cada integrante da equipe, com informações pessoais e profissionais
 
+
 🔗 Como Acessar
 
 Você pode acessar o projeto diretamente em seu navegador, abrindo o arquivo index.html na raiz do projeto.
+
 
 📬 Contato
 

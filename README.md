@@ -14,7 +14,7 @@ Este projeto foi desenvolvido por:
 
 Arthur Morais
 
-Gustavo Victor Ferreira
+Gustavo Victor 
 
 Murilo Milan
 
